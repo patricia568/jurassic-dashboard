@@ -85,7 +85,7 @@ h2 {
   }
 
   100% {
-    fill: #fdd31b;
+    fill: #ffd31d;
   }
 
 }
@@ -101,12 +101,7 @@ h2 {
   }
 
   100% {
-    fill: #ee3354;
+    fill: #f62e52;
   }
-
-}
-
-.user-btn {
-  transform: scale(1.5);
 
 }
