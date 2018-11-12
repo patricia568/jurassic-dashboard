@@ -10,6 +10,7 @@ html {
 
 h2 {
   border: dotted 1px #6feff9;
+  filter: drop-shadow(0 0 2px #6feff9);
 }
 
 .dashboard-controls-bottom {
@@ -33,10 +34,11 @@ h2 {
   100% {
     fill: #c4c6c8;
   }
+
 }
 
 .block-4 {
-  animation: flash-2 .2s .1s linear infinite;
+  animation: flash-2 200ms .1s linear infinite;
 }
 
 @keyframes flash-2 {
@@ -48,6 +50,7 @@ h2 {
   100% {
     fill: #a9abae;
   }
+
 }
 
 .icon {
@@ -68,6 +71,7 @@ h2 {
   100% {
     fill: #fdd31b;
   }
+
 }
 
 #we-bar {
@@ -83,6 +87,7 @@ h2 {
   100% {
     fill: #fdd31b;
   }
+
 }
 
 #fr-bar {
@@ -98,4 +103,10 @@ h2 {
   100% {
     fill: #ee3354;
   }
+
+}
+
+.user-btn {
+  transform: scale(1.5);
+
 }
