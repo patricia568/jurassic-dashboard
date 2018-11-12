@@ -51,6 +51,51 @@ h2 {
 }
 
 .icon {
-  filter: drop-shadow(2px 2px 5px #6feff9);
+  filter: drop-shadow(0 0 7px #6feff9);
   color: #6feff9;
+}
+
+#mo-bar {
+  animation: grow-1 .5s linear;
+}
+
+@keyframes grow-1 {
+
+  0% {
+    fill: #333;
+  }
+
+  100% {
+    fill: #fdd31b;
+  }
+}
+
+#we-bar {
+  animation: grow-2 .5s linear;
+}
+
+@keyframes grow-2 {
+
+  0% {
+    fill: #333;
+  }
+
+  100% {
+    fill: #fdd31b;
+  }
+}
+
+#fr-bar {
+  animation: grow-3 .5s linear;
+}
+
+@keyframes grow-3 {
+
+  0% {
+    fill: #333;
+  }
+
+  100% {
+    fill: #ee3354;
+  }
 }
