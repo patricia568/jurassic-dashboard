@@ -3,3 +3,19 @@ html {
   color: #6feff9;
   font-family: "Ubuntu Mono", monospace;
 }
+
+.border {
+  border: dotted 1px #6feff9;
+}
+
+h2 {
+  border: dotted 1px #6feff9;
+}
+
+.dashboard-controls-bottom {
+  border-bottom: dotted 1px #6feff9;
+}
+
+#cctv {
+  margin-top: 0;
+}
