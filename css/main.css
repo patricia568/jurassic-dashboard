@@ -19,3 +19,38 @@ h2 {
 #cctv {
   margin-top: 0;
 }
+
+.block-2 {
+  animation: flash-1 .2s linear infinite;
+}
+
+@keyframes flash-1 {
+
+  0% {
+    fill: #828487;
+  }
+
+  100% {
+    fill: #c4c6c8;
+  }
+}
+
+.block-4 {
+  animation: flash-2 .2s .1s linear infinite;
+}
+
+@keyframes flash-2 {
+
+  0% {
+    fill: #828487;
+  }
+
+  100% {
+    fill: #a9abae;
+  }
+}
+
+.icon {
+  filter: drop-shadow(2px 2px 5px #6feff9);
+  color: #6feff9;
+}
