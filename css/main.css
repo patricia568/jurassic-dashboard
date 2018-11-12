@@ -105,3 +105,12 @@ h2 {
   }
 
 }
+
+.user-btn {
+  transform: scale(1.5);
+
+}
+
+.last-box {
+  height: 250px;
+}
